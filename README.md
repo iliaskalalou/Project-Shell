@@ -1,14 +1,38 @@
-This GitHub project is a custom shell developed entirely in C, designed to comply with the POSIX standard.
-The goal is to recreate essential Unix shell functionalities including command parsing, process management, I/O redirection, pipelines, signal handling, and environment variable expansion.
+# 42sh - A Custom POSIX-Compliant Shell
 
-To Start the Project : 
+This GitHub project is a custom shell developed entirely in C, designed to comply with the POSIX standard. The goal is to recreate essential Unix shell functionalities, including:
 
-autoreconf --install 
+- Command parsing
+- Process management
+- I/O redirection
+- Pipelines
+- Signal handling
+- Environment variable expansion
 
-./configure
+## Getting Started
 
-./src/42sh -c "Your Shell Command"
+Follow these steps to build and run the project:
 
+1. **Install the necessary tools**  
+   Ensure you have `autoreconf`, `configure`, and a C compiler installed.
 
+2. **Build the Project**
 
-example : ./src/42sh -c "echo toto"
+   ```bash
+   autoreconf --install
+   ./configure
+   make
+
+3. **Run the Shell**
+
+  Execute the shell with a specific command using:
+
+  ```bash
+  Copier
+  ./src/42sh -c "Your Shell Command"
+  Example:
+  
+  ```bash
+  Copier
+  ./src/42sh -c "echo toto"
+   
