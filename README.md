@@ -28,11 +28,5 @@ Follow these steps to build and run the project:
   Execute the shell with a specific command using:
 
   ```bash
-  Copier
-  ./src/42sh -c "Your Shell Command"
-  Example:
-  
-  ```bash
-  Copier
   ./src/42sh -c "echo toto"
-   
+  toto
