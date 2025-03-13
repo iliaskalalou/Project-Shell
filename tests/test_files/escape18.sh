@@ -1,0 +1,2 @@
+echo quoi? &\
+& echo feur

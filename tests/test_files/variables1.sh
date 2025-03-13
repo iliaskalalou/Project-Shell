@@ -1,0 +1,1 @@
+var=Salut; echo $var \$var

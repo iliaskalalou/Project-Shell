@@ -1,0 +1,1 @@
+var1='Nas'; var2='das'; echo $var1$var2

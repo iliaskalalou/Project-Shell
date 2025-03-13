@@ -1,0 +1,1 @@
+echo "Classique et efficace"

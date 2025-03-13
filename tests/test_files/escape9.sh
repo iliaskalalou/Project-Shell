@@ -1,0 +1,1 @@
+echo "Attention escape + double quotes : \"Ca peut tres vite partir\""
