@@ -4,6 +4,7 @@ The goal is to recreate essential Unix shell functionalities including command p
 To Start the Project : 
 
 autoreconf --install 
+
 ./configure
 
 ./src/42sh -c "Your Shell Command"
